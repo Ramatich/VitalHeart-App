@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="Check Your Cardiac Symptoms"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Symptoms checkboxes -->
+    <CheckBox
+        android:id="@+id/cbChestPain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chest Pain"
+        android:padding="14dp" />
+
+    <CheckBox
+        android:id="@+id/cbShortnessOfBreath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shortness of Breath"
+        android:padding="14dp" />
+
+    <CheckBox
+        android:id="@+id/cbPalpitations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Palpitations"
+        android:padding="14dp" />
+
+    <CheckBox
+        android:id="@+id/cbFatigue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fatigue"
+        android:padding="14dp" />
+
+    <CheckBox
+        android:id="@+id/cbDizziness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dizziness"
+        android:padding="14dp" />
+
+    <CheckBox
+        android:id="@+id/cbSwelling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swelling"
+        android:padding="14dp" />
+
+    <CheckBox
+        android:id="@+id/cbFluttering"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heart Fluttering"
+        android:padding="14dp" />
+
+    <!-- Button to check symptoms -->
+    <Button
+        android:id="@+id/btnCheckSymptoms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:background="#002855"
+        android:padding="14dp"
+        android:text="Check Symptoms"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
